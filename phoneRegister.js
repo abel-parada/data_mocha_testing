@@ -3,7 +3,8 @@
 module.exports=class PhoneRegister{
     constructor(data){
         if (!data) throw new Error('phone data missing');
-        this.phoneRegister=data;
+        this.phoneRegister= data; //can be tested with to.equal
+        // this.phoneRegister= [...data]; //must be tested with to.deep.equal
     }
 
     getTypes(){

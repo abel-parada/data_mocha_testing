@@ -1,6 +1,6 @@
-# Testing with Mocha a class
+# Testing with Mocha a data storage
 
-This project tests methods from a class using Mocha and Chai. Data comes from a json file. Implemetation compares data objects.
+This project tests a class (PhoneRegister()) that handles phone data from a json file. Data is passed to the constructor as a parameter.
 
 ## Technologies used
 
